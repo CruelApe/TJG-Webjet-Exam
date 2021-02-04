@@ -30,8 +30,8 @@ This is a sample API provides access to a mocked movies database.
 
 There are 2 API operations available for 2 popular movie databases, cinemaworld and filmworld
 
-/api/{cinemaworld or filmworld}/movies : This returns the movies that are available
-/api/{cinemaworld or filmworld}/movie/{ID}: This returns the details of a single movie
+	• /api/{cinemaworld or filmworld}/movies : This returns the movies that are available
+	• /api/{cinemaworld or filmworld}/movie/{ID}: This returns the details of a single movie
 
 To access this API you'll require an API token.
 
