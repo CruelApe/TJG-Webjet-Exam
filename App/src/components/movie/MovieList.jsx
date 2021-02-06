@@ -8,7 +8,7 @@ class MovieList extends Component{
     render(){
         return(
             <div className="box">
-                <h3 className="center">RECENT ADDED MOVIES</h3>
+                <h3>RECENT ADDED MOVIES</h3>
                 <CardDeck>
                     <MovieItem />
                 </CardDeck>
