@@ -9,7 +9,7 @@ export default class apiCore {
         }
 
         if (options.getSingle) {
-            this.getSingle = () => {
+            this.getSingle = (id) => {
                 return apiProvider.getSingle(options.url, id)
             };
         }
