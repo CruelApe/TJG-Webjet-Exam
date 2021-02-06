@@ -1,0 +1,24 @@
+.movie-item-card {
+    background-color: #101112 !important;
+    border-color: 101112 !important;
+    align-items: center !important;
+    width: 250px;
+    float: left;
+    margin-bottom: 35px !important;
+}
+
+.movie-item-image {
+    height: 330px;
+}
+
+.movie-item-card-title {
+    font-size: 13pt;
+    font-weight: normal;
+    color: rgb(160, 160, 160);
+}
+
+.movie-item-card-year {
+    font-size: 14pt;
+    font-weight: normal;
+    color: rgb(160, 160, 160);
+}

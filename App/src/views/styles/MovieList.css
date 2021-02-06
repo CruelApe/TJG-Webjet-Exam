@@ -1,0 +1,16 @@
+.box {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px !important;
+    color: rgb(179, 177, 177);
+}
+
+.card-header {
+    font-size: calc(5px + 2vmin) !important;
+}
