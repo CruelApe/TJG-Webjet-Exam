@@ -1,3 +1,188 @@
+.movie-detail-poster {
+    height: 400px;
+    width: 270px;
+    margin-left: -20px;
+}
+
+.movie-detail-title, h3 {
+    font-size: 21px;
+    font-weight: lighter;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    color: rgb(179, 177, 177);
+    text-align: left;
+}
+
+.movie-detail-year {
+    font-size: 20px;
+    font-weight: bold;   
+    color: rgb(179, 177, 177);
+    margin-top: -10px;
+}
+
+.movie-detail-metascore-label {
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    font-weight: 700;
+    color:  #636464;
+    margin-top: 10px;
+    margin-left: 3.5px;
+}
+
+.movie-detail-metascore {
+    border: 5px solid rgb(70, 69, 69);
+    border-radius: 100px;
+    padding-left: 19px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 77px;
+    border-color: #636464;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    font-weight: 700;
+    color:  #636464;
+}
+
+.movie-detail-price {
+    width: fit-content;
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    font-weight: lighter;
+    color:  #7f8181;
+}
+
+.movie-detail-rating-label {
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    font-weight: 700;
+    color:  #636464;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.movie-detail-rating {
+    border: 5px solid rgb(70, 69, 69);
+    border-radius: 100px;
+    padding-left: 16px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 77px;
+    border-color: #636464;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    font-weight: 700;
+    color:  #636464;
+    margin-left: 85px;
+}
+
+.movie-detail-mediainfo-runtime {
+    font-size: 16px;
+    font-weight: lighter;    
+    color: rgb(179, 177, 177);
+    margin-top: -10px;
+    margin-left: -14px;
+}
+
+.movie-detail-mediainfo-rated {
+    background-color: #888;
+    color:  #101112;
+    border-radius: 4px;
+    align-content: center;
+    text-align: center;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: -34px;
+    margin-top: -7px;
+}
+
+.movie-detail-mediainfo-language {
+    background-color: transparent;
+    border: 2px solid rgb(70, 69, 69);
+    color:  #636464;
+    border-radius: 4px;
+    align-content: center;
+    text-align: center;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: -70px;
+    margin-top: -8px;
+}
+
+.movie-detail-mediainfo-country {
+    background-color: transparent;
+    border: 2px solid rgb(70, 69, 69);
+    color:  #636464;
+    border-radius: 4px;
+    align-content: center;
+    text-align: center;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: -100px;
+    margin-top: -8px;
+}
+
+.movie-detail-defaultfont {
+    font-size: 14px;
+    font-weight: lighter;    
+    color: rgb(179, 177, 177);
+}
+
+div.fade.in.modal {
+    display: flex !important;
+}
+
+.modal-dialog {
+    margin-top: 10vh;
+    margin-left: 21vw;
+}
+
+.modal-content {
+    height: 100%;
+    border-radius: 0;
+    position:relative;
+}
+  
+.modal-footer {
+    border-radius: 0;
+    bottom:0px;
+    position:absolute;
+    width:100%;
+    padding-right: 15px;
+    margin-bottom: -15px;
+}
+
+.moviedetail-modal .modal-content {
+    background-color: #101112 !important;
+    color: silver;
+    padding: 20px;
+    width: 950px;
+    height: 600px;
+}
+
+.moviedetail-modal .modal-footer {
+    border: 0;
+}
+
+.modal-backdrop {
+    background-color: rgba(0 ,0 ,0 , 1) !important;
+}
+
+.modal-backdrop.fade {
+    opacity: 0.9;
+    filter: alpha(opacity=2);
+}
+
 .movie-item-card {
     background-color: #101112 !important;
     border-color: 101112 !important;
